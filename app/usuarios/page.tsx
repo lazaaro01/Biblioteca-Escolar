@@ -94,7 +94,7 @@ export default function UsuariosPage() {
                   <TableCell>{usuario.turma}</TableCell>
                   <TableCell>
                     <Badge
-                      variant={usuario.status === "Ativo" ? "success" : "destructive"}
+                      variant={usuario.status === "Ativo" ? "default" : "destructive"}
                       className={usuario.status === "Ativo" ? "bg-green-100 text-green-800" : "bg-red-100 text-red-800"}
                     >
                       {usuario.status}

@@ -91,7 +91,7 @@ export default function LivrosPage() {
                   <TableCell>{livro.isbn}</TableCell>
                   <TableCell>
                     <Badge
-                      variant={livro.status === "Disponível" ? "success" : "destructive"}
+                      variant={livro.status === "Disponível" ? "default" : "destructive"}
                       className={
                         livro.status === "Disponível" ? "bg-green-100 text-green-800" : "bg-red-100 text-red-800"
                       }
